@@ -1,22 +1,16 @@
-laravel-collection-addon
+*package still in development*
+
+Laravel Collection Addons
 ===
+
+This package provides some additional functions that can be used with Laravel's Collection.
 
 Installation
 ---
 You can install the package via composer:
 
 ```bash
-composer require // add code here
-```
-
-If you are using Laravel in a version < 5.5, the service provider must be registered as a next step:
-
-```php
-// config/app.php
-'providers' => [
-    ...
-    // add code here
-];
+composer require aheenam/laravel-collection-addon
 ```
 
 Usage
@@ -39,10 +33,12 @@ Contributing
 
 Security
 ---
-If you discover any security related issues, please email <your@mail.tld> or use the issue tracker of GitHub.
+If you discover any security related issues, please email rathes@aheenam.com or use the issue tracker of GitHub.
 
 About
 ---
+Aheenam is a small company from NRW, Germany creating custom digital solutions. Visit
+[our website](https://aheenam.com) to find out more about us.
 
 License
 ---
