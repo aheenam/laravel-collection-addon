@@ -16,6 +16,21 @@ composer require aheenam/laravel-collection-addon
 Usage
 ---
 
+This package comes with following additional methods for Laravel collections
+
+### `containsAll($subset)`
+
+This method returns true if the collection contains all elements of the given `$subset`.
+
+```php
+<?php
+
+// returns true
+collect([1,2,3])->containsAll([1,2]);
+
+// returns false
+collect([1,2,3])->containsAll([1,4]);
+``` 
 
 Changelog
 ---
