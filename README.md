@@ -1,5 +1,3 @@
-*package still in development*
-
 Laravel Collection Addons
 ===
 
