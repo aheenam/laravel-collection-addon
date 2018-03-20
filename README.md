@@ -46,6 +46,20 @@ collect([1,2,3])->containsAny([1,4]);
 collect([1,2,3])->containsAny([4,5]);
 ```
 
+### `hasAny($subset)`
+
+This method checks if any of the given keys in `$subset` exist in the collection.
+
+```php
+<?php
+
+// returns true
+collect(['name' => 'john doe', 'age' => 32])->hasAny(['name', 'firstName', 'lastName']);
+
+// returns false
+collect(['nickname' => 'jd', 'age' => 32])->hasAny(['name', 'firstName', 'lastName']);
+```
+
 Changelog
 ---
 Check [CHANGELOG](CHANGELOG.md) for the changelog
