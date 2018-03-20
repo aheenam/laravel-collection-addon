@@ -31,5 +31,6 @@ class LaravelCollectionAddonServiceProvider extends ServiceProvider
     public function register()
     {
         require_once __DIR__ . '/macros/ContainsAll.php';
+        require_once __DIR__ . '/macros/ContainsAny.php';
     }
 }

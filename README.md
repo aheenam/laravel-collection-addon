@@ -30,7 +30,21 @@ collect([1,2,3])->containsAll([1,2]);
 
 // returns false
 collect([1,2,3])->containsAll([1,4]);
-``` 
+```
+
+### `containsAny($subset)`
+
+This method returns true if the collection contains any of the elements given in `$subset`
+
+```php
+<?php
+
+// returns true
+collect([1,2,3])->containsAny([1,4]);
+
+// returns false
+collect([1,2,3])->containsAny([4,5]);
+```
 
 Changelog
 ---
