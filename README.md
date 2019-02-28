@@ -3,6 +3,10 @@ Laravel Collection Addons
 
 This package provides some additional functions that can be used with Laravel's Collection.
 
+## Requirements
+
+This package requires PHP in`>= 7.2` and Laravel in `>= 5.7`.
+
 Installation
 ---
 You can install the package via composer:
